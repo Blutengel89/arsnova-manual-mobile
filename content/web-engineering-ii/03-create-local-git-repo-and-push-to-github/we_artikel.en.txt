@@ -1,0 +1,265 @@
+Title: Create Local Git Repo & Push to GitHub
+----
+Text:
+
+Git is a versioning tool quite popular in development. It allows you to save snapshots of your files' status as commits. That way, if you make a mistake, you can easily revert to a prior version of your code. Also, you can test features in branches and merge with the main branch when ready. In this course, Git is necessary to be able to push projects to CloudControl, a PaaS provider for hosting apps.
+
+Local git repositories can also be pushed to GitHub, a web based hosting service for software projects. GitHub allows developers to collaborate on projects; its has features of other social platforms like following or watching a project. Projects can also be forked so that other developers can work on it and later issue a pull request for the changes to be incorporated into the original version. 
+## What you'll learn
+In this unit
+
+- a local Git repository is initialized
+- the files in public_html/your_html5MobileBoilerplate_folder are commited to the project and 
+- the local repo is then pushed to GitHub
+
+## Step-by-Step
+1. Open Terminal (link on desktop of VM).
+2. To change to the folder **public_html** type:
+    
+            cd public_html
+3. Change to the folder that contains your html5MobileBoilerplate project by typing
+	        
+	        cd your_html5MobileBoilerplate_folder     //replace with name of your folder
+
+4. To configure git, we'll set some global variables, i.e. your username, your email and the color scheme for Git. Enter the following commands one by one:
+
+        git config --global user.name "Firstname Lastname"
+        git config --global user.email "your_address@your_mail.com"
+        git config --global color.ui auto
+
+5.   To initialize the new repo in public_html/your_html5boilerplate_folder , type the command
+
+        git init
+        
+       If all went well, you should see the following message
+       
+        "Initialized empty Git repository in home/developer/public_html/your_html5MobileBoilerplate_folder/.git"
+5. Verify the status of your newly initialized repo
+
+        git status
+	You should see the following message:
+      
+       	# On branch master
+		#
+		# Initial commit
+		#
+		# Untracked files:
+		#   (use "git add <file>..." to include in what will be committed)
+		#
+		#	.gitattributes
+		#	.gitignore
+		#	.htaccess
+		#	404.html
+		#	CHANGELOG.md
+		#	CONTRIBUTING.md
+		#	LICENSE.md
+		#	README.md
+		#	crossdomain.xml
+		#	css/
+		#	doc/
+		#	favicon.ico
+		#	humans.txt
+		#	img/
+		#	index.html
+		#	js/
+		#	robots.txt
+		#	tools/
+		nothing added to commit but untracked files present (use "git add" to track)
+
+
+        
+    The repository is initialized but up to now no files have been added to the repo.
+6.  Now add all files and folders in public_html to the repo:
+    
+          git add *
+          
+       **Note**: The command "git add *" doesn't add hidden files. If you want to track hidden files as well use "git add ." instead.
+       
+       You should see the following message:
+          
+			# On branch master
+			#
+			# Initial commit
+			#
+			# Changes to be committed:
+			#   (use "git rm --cached <file>..." to unstage)
+			#
+			#	new file:   .gitattributes
+			#	new file:   .gitignore
+			#	new file:   .htaccess
+			# new file:    .project
+			#	new file:   404.html
+			#	new file:   CHANGELOG.md
+			#	new file:   CONTRIBUTING.md
+			#	new file:   LICENSE.md
+			#	new file:   README.md
+			#	new file:   crossdomain.xml
+			#	new file:   css/main.css
+			#	new file:   css/normalize.css
+			#	new file:   doc/README.md
+			#	new file:   doc/contribute.md
+			#	new file:   doc/crossdomain.md
+			#	new file:   doc/css.md
+			#	new file:   doc/extend.md
+			#	new file:   doc/faq.md
+			#	new file:   doc/htaccess.md
+			#	new file:   doc/html.md
+			#	new file:   doc/js.md
+			#	new file:   doc/misc.md
+			#	new file:   doc/usage.md
+			#	new file:   favicon.ico
+			#	new file:   humans.txt
+			#	new file:   img/startup/startup-retina-4in.png
+			#	new file:   img/startup/startup-retina.png
+			#	new file:   img/startup/startup-tablet-landscape-retina.png
+			#	new file:   img/startup/startup-tablet-landscape.png
+			#	new file:   img/startup/startup-tablet-portrait-retina.png
+			#	new file:   img/startup/startup-tablet-portrait.png
+			#	new file:   img/startup/startup.png
+			#	new file:   img/touch/apple-touch-icon-114x114-precomposed.png
+			#	new file:   img/touch/apple-touch-icon-144x144-precomposed.png
+			#	new file:   img/touch/apple-touch-icon-57x57-precomposed.png
+			#	new file:   img/touch/apple-touch-icon-72x72-precomposed.png
+			#	new file:   img/touch/apple-touch-icon-precomposed.png
+			#	new file:   img/touch/apple-touch-icon.png
+			#	new file:   index.html
+			#	new file:   js/helper.js
+			#	new file:   js/main.js
+			#	new file:   js/plugins.js
+			#	new file:   js/vendor/modernizr-2.6.2.min.js
+			#	new file:   js/vendor/zepto.min.js
+			#	new file:   robots.txt
+			#	new file:   tools/mobile-bookmark-bubble/COPYING
+			#	new file:   tools/mobile-bookmark-bubble/bookmark_bubble.js
+			#	new file:   tools/mobile-bookmark-bubble/example/example.html
+			#	new file:   tools/mobile-bookmark-bubble/example/example.js
+			#	new file:   tools/mobile-bookmark-bubble/images/arrow.png
+			#	new file:   tools/mobile-bookmark-bubble/images/close.png
+			#	new file:   tools/mobile-bookmark-bubble/images/generate_base64_images
+			#	new file:   tools/mobile-bookmark-bubble/images/icon_calendar.png
+			#
+			# Untracked files:
+			#   (use "git add <file>..." to include in what will be committed)
+			#
+			#	.gitattributes
+			#	.gitignore
+			#	.htaccess
+			#  .project
+
+		
+
+All files have been added to the index (they were staged), apart from some hidden files like **.project** (which is the project file created when we created the Eclipse bootstrap project.	By default, hidden files are not added to the index and we don't want to add them to the index, either.
+
+7. Now make the first commit:
+        
+        git commit -m "My first commit" 
+    
+    You are free to choose your commit message; however, it should reflect the changes or additions you made to a commit.
+    
+   The resulting messages in Terminal should be:
+    
+		[master (root-commit) ce3772a] My first commit
+		 49 files changed, 3797 insertions(+)
+		 create mode 100755 404.html
+		 create mode 100755 CHANGELOG.md
+		 create mode 100755 CONTRIBUTING.md
+		 create mode 100755 LICENSE.md
+		 create mode 100755 README.md
+		 create mode 100755 crossdomain.xml
+		 create mode 100755 css/main.css
+		 create mode 100755 css/normalize.css
+		 create mode 100755 doc/README.md
+		 create mode 100755 doc/contribute.md
+		 create mode 100755 doc/crossdomain.md
+		 create mode 100755 doc/css.md
+		 create mode 100755 doc/extend.md
+		 create mode 100755 doc/faq.md
+		 create mode 100755 doc/htaccess.md
+		 create mode 100755 doc/html.md
+		 create mode 100755 doc/js.md
+		 create mode 100755 doc/misc.md
+		 create mode 100755 doc/usage.md
+		 create mode 100755 favicon.ico
+		 create mode 100755 humans.txt
+		 create mode 100755 img/startup/startup-retina-4in.png
+		 create mode 100755 img/startup/startup-retina.png
+		 create mode 100755 img/startup/startup-tablet-landscape-retina.png
+		 create mode 100755 img/startup/startup-tablet-landscape.png
+		 create mode 100755 img/startup/startup-tablet-portrait-retina.png
+		 create mode 100755 img/startup/startup-tablet-portrait.png
+		 create mode 100755 img/startup/startup.png
+		 create mode 100755 img/touch/apple-touch-icon-114x114-precomposed.png
+		 create mode 100755 img/touch/apple-touch-icon-144x144-precomposed.png
+		 create mode 100755 img/touch/apple-touch-icon-57x57-precomposed.png
+		 create mode 100755 img/touch/apple-touch-icon-72x72-precomposed.png
+		 create mode 100755 img/touch/apple-touch-icon-precomposed.png
+		 create mode 100755 img/touch/apple-touch-icon.png
+		 create mode 100755 index.html
+		 create mode 100755 js/helper.js
+		 create mode 100755 js/main.js
+		 create mode 100755 js/plugins.js
+		 create mode 100755 js/vendor/modernizr-2.6.2.min.js
+		 create mode 100755 js/vendor/zepto.min.js
+		 create mode 100755 robots.txt
+		 create mode 100755 tools/mobile-bookmark-bubble/COPYING
+		 create mode 100755 tools/mobile-bookmark-bubble/bookmark_bubble.js
+		 create mode 100755 tools/mobile-bookmark-bubble/example/example.html
+		 create mode 100755 tools/mobile-bookmark-bubble/example/example.js
+		 create mode 100755 tools/mobile-bookmark-bubble/images/arrow.png
+		 create mode 100755 tools/mobile-bookmark-bubble/images/close.png
+		 create mode 100755 tools/mobile-bookmark-bubble/images/generate_base64_images
+		 create mode 100755 tools/mobile-bookmark-bubble/images/icon_calendar.png 		
+
+8.  Now check the status of your repo again:
+
+		git status
+		
+  You should now see the following message:
+  
+  		# On branch master
+		# Untracked files:
+		#   (use "git add <file>..." to include in what will be committed)
+		#
+		#	.gitattributes
+		#	.gitignore
+		#	.htaccess
+		#  .project
+		nothing added to commit but untracked files present (use "git add" to track)		
+
+9. Before you can continue with the next steps (connect your remote repo on GitHub und push your local repo to it), you need to open an account on GitHub and create a (new) remote repository. Follow the instructions on GitHub to do so.
+10. Now connect the local repository to the remote repository:
+  
+		git remote add origin address_of_remote_repo
+11. Finally, push your local repo to the remote repo:
+
+        git push -u origin master
+        
+      You should see something like the following confirmation (just with your repo):
+        
+        Counting objects: 60, done.
+		Delta compression using up to 8 threads.
+		Compressing objects: 100% (57/57), done.
+		Writing objects: 100% (60/60), 91.51 KiB | 0 bytes/s, done.
+		Total 60 (delta 2), reused 0 (delta 0)
+		To https://github.com/texnixe/html5MobileBoilerplate.git
+ 		* [new branch]      master -> master
+		Branch master set up to track remote branch master from origin.
+		
+Now you have successfully intialized your local repo in **public_html/your_html5MobileBoilerplate_folder** and pushed it to your remote repo on GitHub.
+
+
+If you get an error message, it sometimes helps to remove the remote again and try again.
+
+To list the remotes connected to your repo type
+
+    git remote -v
+    
+To remove a remote
+
+    git remote rm *name_of_remote*    
+
+In the next unit, the local repo will be published in the cloud using CloudControl.	
+                                         
+                 
+                                
+        

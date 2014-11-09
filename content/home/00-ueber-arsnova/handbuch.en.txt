@@ -1,0 +1,21 @@
+Title: About ARSnova
+----
+Subtitle: What is ARSnova?
+----
+Text:
+ARSnova is an innovative Audience Response System originally designed to improve teaching and to make lectures with many students more interactive. The ARSnova web app is available under Open Source license and can be accessed and used online by anyone. Universities or other interested parties may also install the app on their own servers.
+
+ARSnova features a role based architecture that allows users to act both as students and teachers.
+
+In the Student role, users can give teachers valuable live feedback on a lecture, ask questions during lectures anonymously, and anwer the questions prepared by their teachers both before and during or after a lecture.
+
+ 
+In the Teacher Role, users can prepare questions with a variety of question types to check if their students can follow their lecture or to get information about their audience beforehand to make sure they provide relevant information to their audience. With the possibility to view live feedback at any time during a lecture teachers can check if their audience is still with them.
+
+ARsnova can also be used by students for Peer Instruction and for self-learning purposes.
+
+For more information visit:
+
+- [ARSnova Blog](http://arsnova.eu/blog)
+- [ARSnova Helpdesk](http://arsnova.eu/blog/faq-2/)
+

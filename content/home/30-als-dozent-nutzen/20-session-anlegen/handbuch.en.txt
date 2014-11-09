@@ -1,0 +1,34 @@
+Title: Create Session
+----
+Subtitle: Create new session
+----
+Steps:
+
+1:
+	Action: Tap **Create new session**
+	Details: &rarr; You are taken to the *Create Session* view.
+2:
+	Action: Enter a **Name** and a **Short name** for the session.
+	Details: 
+		
+		
+3:
+	Action: Tap **Create Session**
+	Details: &rarr; You are taken to the *Start* view of your session.		
+
+4:
+	Action: Your are in *Start* view.
+	Details:>		 
+		From here you can
+			
+			
+				- manage your session
+				
+				- view student's questions
+				
+				- create Lecture questions
+				
+				- create Preparation questions or
+				
+				- view live Feedback
+	

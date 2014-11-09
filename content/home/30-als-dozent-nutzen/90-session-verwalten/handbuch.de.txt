@@ -1,0 +1,27 @@
+Title: Session verwalten
+----
+Subtitle: Bearbeiten, freigeben, sperren, löschen
+----
+Steps:
+
+
+1:
+	Action: Auf ein Sessionkürzel tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Start*.
+
+		
+2:
+	Action: Aktion auswählen
+	Details: >
+			- **Session sperren**: Sperrt die Session für nicht angemeldete NutzerInnen, z.B. zur Vorbereitung oder um Mehrfachabstimmungen zu verhindern. Angemeldete NutzerInnen werden benachrichtigt, sie können weiterhin alle Funktionen nutzen.
+			
+			- **Session löschen**: löscht die Session. Dieser Schritt kann nicht rückgängig gemacht werden
+			
+			- <a class="open" href="#7">**Live Feedback**: Feedback zur aktuellen Session ansehen</a>
+			
+			- <a class="open" href="#8">**Zwischenfragen**: Zwischenfragen von Zuhörer/innen ansehen</a>
+			
+			- <a class="open" href="#4">**Hörsaalfragen**: Antworten zu Hörsaal-Fragen ansehen</a>
+			
+			- <a class="open" href="#5">**Vorbereitungsfragen**: Zur Ansicht *Vorbereitung*. Dort können Sie neue Vorbereitungsfragen erstellen.</a>
+		

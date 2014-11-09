@@ -1,0 +1,45 @@
+Title: Überblick
+----
+Subtitle: Überblick über Navigationselemente
+----
+Steps:
+
+1:
+	Action: Navigieren
+	Details: >
+		- **1** **Navigationsleiste**: Shortcuts zu allen Funktionen
+	       
+		- **2** **Zurück-Buttons**: zur jeweils letzten Ansicht zurücknavigieren (die Beschriftung zeigt, auf welche Ansicht Sie gelangen)
+		
+		- **3** **Scrollen mit der Maus**: Um im Desktop-Browser mit der Maus zu scrollen, klicken Sie in die Ansicht und ziehen Sie mit gedrückter Maustaste nach oben oder unten.
+
+	
+		
+		**Hinweis**: Melden Sie sich an, um diese Ansicht zu sehen. Beispielhaft sehen Sie hier die Ansicht in der Zuhörer/innen-Rolle. Die Navigation in Dozent/innen-Rolle ist die gleiche, mit dem Unterschied, dass die Funktionen unterschiedlich sind. 
+		
+2:
+	Action: Start-Icon
+	Details: Führt zur *Start*-Ansicht der jeweiligen Session.
+3:
+	Action: Feedback-Icon
+	Details: Zeigt Feedback-Statistik zur aktuellen Session an.
+4:
+	Action: Fragen-Icon
+	Details:>
+				- Zuhörer/in: Fragen beantworten/Fragenstatistik
+				
+				- Dozent/in: Zwischenfragen ansehen
+5:
+	Action: Diagnose-Icon
+	Details:>
+			- **Statistik**: zeigt verschiedene statistische Daten an (z.B. Users online, Anzahl offene und geschlossene Sessions etc.)
+			
+			- **Browser Informationen anzeigen**: zeigt Informationen zum verwendeten Browser an
+			
+			- **ARSnova neu laden**: lädt ARSnova neu herunter
+		
+6:
+	Action: Info-Icon
+	Details: Link zu diesem Handbuch
+				
+	

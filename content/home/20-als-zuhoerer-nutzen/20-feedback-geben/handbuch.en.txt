@@ -1,0 +1,29 @@
+Title: Give Feedback
+----
+Subtitle: Evaluate an event live
+
+----
+Steps:
+
+
+1:
+	Action: Tap **Give feedback**
+	Details:	&rarr; You are taken to the *Feedback* view.
+2:
+	Action: Tap a  Feedback button
+	Details: >
+			To evaluate the event, tap the appropriate smiley.
+			
+			&rarr; You are taken to the *Feedback statistics* view.
+3:
+	Action: Tap **Start**
+	Details:>
+		&rarr; You are taken to the *Start* view.
+		
+		
+		**Note**: You can tap on one of the smileys in this view to give feedback while viewing other people's feedback. That way, you can interact directly.
+		
+
+4:
+	Action: Your are back in the *Start* view.
+	Details:	

@@ -1,0 +1,33 @@
+Title: Frage stellen
+----
+Subtitle: Fragen zur Veranstaltung stellen
+----
+Steps:
+
+1:
+	Action: Auf **Feedback geben** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Feedback*.
+2:
+	Action: Auf **Ich habe eine Frage...** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Frage editieren*.
+	
+3:
+	Action: Thema und Frage eingeben
+	Details:>
+		Geben Sie ein Thema (max. 140 Zeichen) und Ihre Frage (max. 2500 Zeichen) in die zugehörigen Felder ein.
+4:
+	Action: Auf **Abschicken** tippen
+	Details:	
+5:
+	Action: Abschicken erfolgreich
+	Details:>
+		 Wenn Ihre Frage erfolgreich abgeschickt wurde, erhalten Sie die Bestätigung "Ihre Frage wurde gespeichert". 
+		 
+		 
+		 &rarr; Sie gelangen zur Ansicht *Feedback*.
+6:
+	Action: Auf **Start** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Start*.
+7:
+	Action: Sie sind wieder in der Ansicht *Start*.
+	Details: 

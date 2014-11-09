@@ -1,0 +1,98 @@
+Title: Vorbereitungsfragen
+----
+Subtitle: Vorbereitungsfragen zur Session erstellen
+----
+Steps:
+
+1:
+	Action: Auf ein Sessionkürzel tippen
+	Details: &rarr; Sie gelangen zur *Start*-Ansicht der Session.
+
+		
+2:
+	Action: Auf **Vorbereitung** tippen
+	Details: >
+		
+		Die Zahl im grauen Badge zeigt die Anzahl der erstellten Vorbereitungsfragen an.
+		
+		
+		&rarr; Sie gelangen zur Ansicht *Vorbereitung*.
+3:
+	Action: Auf **Neue Vorbereitungsfrage** tippen
+	Details: >
+		&rarr; Sie gelangen zur Ansicht *Frage editieren*.
+		
+4:
+	Action: Fragetyp wählen
+	Details: >
+		In diesem Beispiel wählen Sie den Fragetyp "Note". Diese Fragetypen stehen zur Auswahl&#58;
+		
+		
+				- **MC**: Mehrfachauswahl
+				
+				- **SC**: Einfachauswahl
+				
+				- **J/N**: Ja/Nein-Frage
+				
+				- **Txt**: Freitext-Frage
+				
+				- **Likert**: Likert-Skala				
+				
+				- **Note**: Bewertung nach Schulnotensystem
+				
+				- **LK**: Lernkarte (zum Selbststudium)
+		
+		
+		
+		**Hinweis**: Die zur Verfügung stehenden Antwortoptionen variieren je nach gewähltem Fragetyp.
+
+5:
+	Action: Thema und Frage eingeben
+	Details:>
+		
+6:
+	Action: Optional Antworten bearbeiten
+	Details: Sie können das vorgegebene Antwortschema nach Ihren Bedürfnissen ändern.
+7:
+	Action: Auf **Speichern** tippen
+	Details:	&rarr; Sie gelangen zur Ansicht **Frage**
+8:
+	Action: Antwortoptionen festlegen
+	Details: >
+	
+				- **Statistik**: Fragenstatistik ansehen
+				
+				- **Statistik freigeben**: Fragenstatistik für die Zuhörer/innen freigeben
+				
+				- **Richtig markieren**: Richtige Antworten anzeigen, wenn die Frage beantwortet wurde
+				
+				- **Frage sperren**: Frage für Zuhörer/innen sperren
+				
+				- **Antworten löschen**: Alle bisher vorhanden Antworten löschen.
+				
+				- **Frage löschen**: Die Frage endgültig löschen
+				
+				- **Freigeben für**: Um die Frage für alle freizugeben, tippen Sie auf **Alle**. Um die Frage nur für Uni-Angehörige freizugeben, tippen Sie auf **Nur Uni**.
+
+	
+9:
+	Action: Auf **Fragen** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Vorbereitung*.
+10:
+	Action: Sie sind in der Ansicht *Vorbereitung*.
+	Details:>
+	
+			- Um zur Startseite zurückzugelangen, tippen Sie auf **Start**.
+		
+			- Um den Präsentationsmodus zu aktivieren, tippen Sie auf **Präsentationsmodus**.
+		
+		
+			- Um weitere Fragen zu erstellen, tippen Sie auf **Neue Frage stellen**.
+		
+		
+			- Um eine Frage zu editieren, tippen Sie auf die Frage.
+			
+			- Um alle Fragen zu sperren, tippen Sie auf **Fragen sperren**.
+		
+			- Um alle Fragen zu löschen, tippen Sie auf **Fragen löschen**.
+		

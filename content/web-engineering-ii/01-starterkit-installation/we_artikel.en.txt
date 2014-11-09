@@ -1,0 +1,100 @@
+Title: Starterkit - Install VirtualBox, VM and HTML5 Mobile Boilerplate
+----
+Text:
+
+1. [Download the correct version of VirtualBox for your operating system](//www.virtualbox.org/wiki/Downloads) and install (process varies depending on your OS).
+2. Start VirtualBox.
+3. Download and install a BitTorrent Client, see [list](//en.wikipedia.org/wiki/Comparison_of_BitTorrent_clients).
+4. [Download course VM](//ecollab.eu/DeveloperVM.ova.torrent?__hstc=162494947.ba565441a99e7afa0c72a990633dff84.1382358162835.1384017291658.1384021188975.115&__hssc=162494947.22.1384021188975&__hsfp=3693253106). System requirements:
+    - Pentium 4 or AMD Athlon (min. 1,5 GHz), preferably multi-core processor
+    - 2 GB memory
+    -  8 GB free disk space
+    - internet connection;)
+5. To import the course VM (DeveloperVM.ova) into VirtualBox, double-click on the file. In VirtualBox Manager, an Import Window opens. Make sure that "Reinitialize the MAC addresses of all network cards" ("Zuweisen neuer MAC Adressen für alle Netzwerkkarten) is checked. Click on "Import" to import the virtual machine.
+    (image: import-vm.jpg)
+6. Start the VM: Select it and click "Start". The VM starts just like a normal PC with a lot of boot messages.
+7. Login to the VM:
+	- Login name: developer
+	- Password: developer
+	
+8. You are greeted by the desktop of the VM. To change the language of the VM from German to English, refer to the instructions below.
+	(image: vm-started.jpg)
+	On the desktop of the VM you will find all the tools needed for the course:
+   		
+   	 - Firefox Browser and Chromium Browser with links to Webserver and ARSnova
+	 - Eclipse IDE
+	 - Link to keyboard settings (Tastatur), in case you need to choose another keyboard layout
+	 - Link to personal folder (Persönliches Verzeichnis) that contains a link to the folder public_html (which serves as root folder for the Apache Webserver, i.e. /home/developer/public_html). The public_html folder is the one into which the  html5-mobile-boilerplate folder needs to be unzipped in step 10.
+ 	 - Link to Terminal (at the bottom of Desktop)
+9. In the VM, open Firefox or Chromium to go to [http://html5boilerplate.com/mobile/]( http://html5boilerplate.com/mobile/) and click on "Download". 
+10. Unzip the folder into public_html. You should now have a folder called "h5bp-mobile-boilerplate-eb25172" in public_html. If you want, rename that folder to something more memorable, e.g. MyFirstApp or HTML5App or whatever. Now you are ready to [set up your first HTML5 Mobile Boilerplate project in the next step](create-first-bootstrap-project).
+      (image: public-html.jpg)
+	  
+	  The image shows the public_html folder with the "h5bp-mobile-boilerplate-eb25172" folder renamed to "html5MobileBoilerplate".
+	  
+## Change Debian/GNU Linux Language
+
+1. Open Terminal (click on the icon with the green screen and the white >_ characters at the bottom of the desktop).
+2. Type 
+        
+        sudo dpkg-reconfigure locales
+    
+    and press enter.    
+3. You will be asked for your password. Type developer, then press enter. The following dialog opens. Click "OK"
+	(image: change-language-1.jpg)
+4. In the next dialog, go down to de_DE.UTF-8, unselect with space bar
+4. Go down to en_US.UTF-8, select it with space bar
+	(image: change-language-2.jpg)
+5. In the next dialog, select "en_US.UTF-8" as default location setting and click "OK". 
+	(image: change-language-3.jpg)
+6. The new language settings are generated.
+	(image: change-language-4.jpg)
+7. Log out and log in again. Your desktop should now greet you in English:).
+	(image: vm-desktop-english.jpg)
+
+
+	**Note**: The password for the root user is also "developer". You can fully administer the VM as a root user. Usually though, using "sudo" in front of a linux command should do the job.
+
+##Change Keyboard Settings
+
+1. Click on Applications Menu (upper left corner of VM) &rarr; Settings &rarr; Keyboard
+2. In the Keyboard dialog that opens, select the tab "Layout".
+3. Select your keyboard model.
+4. Click "Add" to add another language layout.
+5. In the dialog that opens, select your keyboard layout and variant.
+6. Click "OK".
+(image: change-keyboard-layout.jpg)
+
+----
+faq:
+
+##FAQ
+####Critical Error: The guest is trying to switch to the PAE mode which is currently disabled by default in VirtualBox. {.trigger}
+<div class=toggle_container markdown=1>
+Select the VM, click on Machine &rarr; Settings, select System &rarr; Processor and check "Enable PAE/NX
+</div>
+
+####Gnome-Keyring: couln’t connect to home/developer … No such file or directory {.trigger}
+<div class=toggle_container markdown=1>
+The keyring module is buggy:
+
+(link: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=696402)
+
+Just remove it:
+
+    $ sudo rm /etc/pkcs11/modules/gnome-keyring-module
+
+and the annoying warning will disappear.
+</div>
+
+####Failed to open a session for the virtual machine DeveloperVM. Implementation of the USB 2.0 controller not found! {.trigger}
+<div class=toggle_container markdown=1>
+If you don't need USB 2.0 support, disable it: In VitualBox Manager, select VM, click on **Settings**, click on **Ports &rarr; USB**, uncheck "Enable USB 2.0 (EHCI) Controller.
+
+Or install the VirtualBox Extension Pack, which is available at: (link: https://www.virtualbox.org/wiki/Downloads).
+</div>
+####Can't type my password in terminal {.trigger}
+<div class=toggle_container markdown=1>
+For security reasons, nothing is shown when you type your password. Just type it and press enter.
+</div>
+	

@@ -1,0 +1,245 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -40px;
+  /* Pad bottom by footer height */
+  padding: 10px 0 40px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 40px;
+    padding:10px 0;
+  background-color: #f5f5f5;
+    border-top: 1px solid #80ba24;
+}
+.footer-container {
+  margin: 0 auto;
+  padding:0 10px;
+  max-width: 720px;
+}
+.container {
+  width: auto;
+  max-width: 720px;
+  padding: 0 5px;
+  position:relative;
+}
+.container:last-child {
+  padding-bottom:15px;
+}
+h1 {
+  font-size:1.5em;
+  margin:0.5em 0 0.8em 0;
+}
+h2.panel-title{
+  font-size: 1.5em;
+  margin:0 0 0.2em 0;
+}
+h3.panel-subtitle{
+  font-size: 1.1em;
+  margin:0;
+}
+h4 {
+  font-size: 1.1em;
+  margin:0 0 0.3em 0;
+}
+a {
+  color: #80ba24;
+}
+a:hover {
+  text-decoration:none;
+  color:#585858;
+}
+a.active {
+  color:#80ba24;
+}
+ol, ul {
+  margin:0;padding:0;
+}
+ol li {
+  margin-left: 20px;
+}
+
+.lang_switch{
+  width:35px;
+  height:35px;
+  position:absolute;
+  top:10px;
+  right:15px;
+  z-index:9999;
+  background-color:#80ba24;
+  color:#fff;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+}
+
+.lang_switch span{
+  display:block;
+  width:35px;
+  height:35px;
+  margin:0 auto;
+  font-size:1.4em;
+  padding:2px;
+}
+.lang_switch span a{
+  color:#fff;
+  vertical-align:middle;
+
+}
+
+.ars_link {
+
+  position:absolute;
+  top:-4px;
+  right:15px;
+  z-index:9999;
+  color:#80ba24;
+}
+
+.ars_link span{
+  font-size:1.5em;
+}
+.ars_link span span:after {content:"\e131";font-family: 'Glyphicons Halflings';font-size:35px;padding-left:4px;vertical-align:middle;}
+
+
+.subchapter>.panel-heading{
+  background-color: #80ba24;
+}
+.subchapter a,
+.ext-links a {
+  color:#f5f5f5;
+}
+.subchapter a:hover{
+  color:#000;
+}
+.ext-links a:hover{
+  color:#e5e5e5;
+}
+.panel-heading {
+  position:relative;
+  padding:5px 30px 5px 10px;
+}
+.panel-body {
+  padding: 0 0 !important;
+}
+.textwrapper {
+  padding:20px;
+}
+ul {
+  margin-left:20px
+}
+ul li {
+  line-height:1.2em;
+  margin-bottom:0.2em;
+}
+.carousel {
+  padding:10px 0;
+}
+.item {
+  padding:0 30px;
+}
+
+.carousel-caption {
+  position:relative;
+  display:inline-block;
+  padding:20px 0 0 20px;
+  left:0;
+  right:0;
+  text-shadow:none;
+  bottom:0;
+  color:#000;
+  text-align:left;
+  width:55%;
+}
+.carousel-caption h4 span {
+  display:inline-block;
+}
+.carousel-caption h4 span {
+  width:100%;
+  vertical-align:top;
+}
+.carousel-caption h4 span span {
+  width:88%;
+}
+.carousel-caption h4 span span p {
+  margin-bottom: 5px;
+}
+.carousel-caption ul {
+  margin-left:35px;
+}
+.carousel-inner>.item>img{
+  display:inline-block;
+  vertical-align:top;
+  width:250px;
+}
+.carousel-control {
+  width:25px;
+}
+.carousel-control.left,.carousel-control.right {
+  background-image:none;
+  background-color:#80ba24;
+}
+.carousel-control .glyphicon-chevron-right {
+  right: 10%;
+}
+.carousel-control .glyphicon-chevron-left {
+  left: 10%;
+}
+span.panel-icon {
+  position:absolute;
+  top:50%;
+  right:12px;
+  color:#80ba24;
+}
+.subchapter span.panel-icon,
+.ext-links span.panel-icon {
+  color:#f5f5f5;
+}
+.panel.ext-links{
+  position: relative;
+}
+.ext-links>.panel-heading{
+  background-color: #4a5c66;
+  color:#fff;
+}
+.ext-links span.panel-icon {
+  position:absolute;
+  top:35%;
+  right:12px;
+  color:#fff;
+}
+.panel-group .panel+.panel {margin-top:4px;}
+@media screen and (max-width:560px){
+  .carousel-inner>.item>img{
+    width:75%;
+  }
+  .carousel-caption {
+    width:100%;
+    position:relative;
+    right:0;
+    left:0;
+    padding:1em 0 0 0;
+    float:none;
+    text-align:left;
+    color:#000;
+  }
+  .carousel-inner>.item>img{
+    display:block;
+    margin:0 auto;
+  }
+  .carousel-caption ol li {
+    margin-left:20px;
+  }
+}
+
+

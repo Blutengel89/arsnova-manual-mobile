@@ -1,0 +1,16 @@
+Title: Logout
+----
+Subtitle: Log out from a session
+----
+Steps:
+
+
+1:
+	Action: Tap **Sessions**
+	Details:	&rarr; You are taken to the *Sessions* view.
+2:
+	Action: Tap **Logout**
+	Details: &rarr; You are taken to the *Audience Response System* view.
+3:
+	Action: You are on the start page.
+	Details:	You can now log in again (e.g. as teacher).

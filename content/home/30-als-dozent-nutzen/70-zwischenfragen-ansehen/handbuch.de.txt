@@ -1,0 +1,55 @@
+Title: Zwischenfragen
+----
+Subtitle: Zuhörer/innen-Fragen beantworten
+----
+Steps:
+
+1:
+	Action: Auf ein Sessionkürzel tippen
+	Details: &rarr; Sie gelangen zur Ansicht der ausgewählten Session. 
+		
+2:
+	Action: Auf **Zwischenfragen** tippen
+	Details:>
+	  Ein Badge neben Zwischenfragen zeigt die Anzahl der Fragen an.
+	
+	
+			&rarr; Sie gelangen zur Ansicht *Auditorium*.
+		
+3:
+	Action: Auf eine Frage tippen
+	Details:>
+		**Hinweis**: In dieser Ansicht können Sie alle Fragen durch Tippen auf den Button **Fragen löschen** löschen.
+	   
+	    
+	      &rarr; Sie gelangen zur Ansicht *Details*.
+		
+4:
+	Action: Frage beantworten
+	Details: Wenn Sie die Frage anschließend löschen wollen, tippen Sie auf **Löschen**.
+
+5:
+	Action:  Auf **Fragen** tippen
+	Details:>
+		&rarr; Sie gelangen zur Ansicht *Auditorium*.
+		
+		
+		
+
+
+6:
+	Action: Tippen Sie auf **Zurück**
+	Details:> 
+			Sie können nun weitere Fragen auswählen und beantworten.
+		 
+			
+			Um alle Fragen zu löschen, tippen Sie auf **Fragen löschen**.
+			
+			
+			&rarr; Sie gelangen zur Ansicht *Start*
+
+7:
+	Action: Sie sind wieder in der Ansicht *Start*
+	Details:	
+	
+		

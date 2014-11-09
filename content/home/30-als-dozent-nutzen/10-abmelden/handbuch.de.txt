@@ -1,0 +1,16 @@
+Title: Abmelden
+----
+Subtitle: Von einer Session abmelden
+----
+Steps:
+
+
+1:
+	Action: Auf **Sessions** tippen
+	Details:	&rarr; Sie gelangen zur Ansicht *Sessions*.
+2:
+	Action: Auf **Abmelden** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Feedback im Hörsaal*.
+3:
+	Action: Sie sind auf der Startseite.
+	Details:	Sie können sich nun neu anmelden.

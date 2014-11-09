@@ -1,0 +1,39 @@
+Title: View Statistics
+----
+Subtitle: View Feedback and Question Statistics
+----
+Steps:
+
+1:
+	Action: Tap **Lecture**
+	Details: >
+		&rarr; You are taken to the first question.
+		
+2:
+	Action: Tap the **Statistics** button
+	Details: >
+		The  **Statistics** button is located in the top bar on the right.
+		
+			
+					**Note**: Statistics are only available once you have answered a question and if the feature was released for a question.
+	
+		
+		&rarr; You are taken to the *Question* view that shows statistics on the selected question.
+3:
+	Action: When finished, tap **Back**.
+	Details: &rarr; You are taken back to the question.
+		
+	
+4:
+	Action: When finished, tap **Start**
+	Details:>
+		 &rarr; You are taken to the *Start* view.
+		 
+			
+			**Note**: Use the swipe gesture to navigate between questions. You can view the statistics of any question for which this feature has been enabled.
+					
+			**When using a mouse**: To navigate between questions, click into the view and drag to the left or right while keeping the mouse button down. You may also click to the left or right of the navigation dots above the navigation bar.	 
+		  
+5:
+	Action: Your are back in the *Start* view .
+	Details:

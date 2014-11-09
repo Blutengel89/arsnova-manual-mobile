@@ -1,0 +1,52 @@
+Title: Students' Questions
+----
+Subtitle: Answer Students' questions
+----
+Steps:
+
+1:
+	Action: Tap on a Session short name
+	Details: &rarr; You are taken to the *Start* view. 
+		
+2:
+	Action: Tap **Students' questions**
+	Details:>
+		A blue badge next to *Students' questions* shows the number of students' questions.
+	
+		
+		&rarr; You are taken to the *Auditorium* view.
+		
+3:
+	Action: Tap on a question
+	Details:>
+		**Note**&#58; In this view, you can delete all questions by tapping **Delete questions**. 
+
+	    
+	    &rarr; You are taken to the  *Details* view.
+		
+4:
+	Action: Read and answer question
+	Details: If you want to delete the questions after you have answered it, tap **Delete**.
+
+5:
+	Action:  Tap **Questions**
+	Details:>
+		&rarr; You are taken to the *Auditorium* view.
+
+
+6:
+	Action:  Tap **Back**
+	Details:>
+			Here, you may now select another question and answer it. 
+
+
+			To delete all questions, tap **Delete questions**.
+	 
+	  		 &rarr; You are taken to the *Start* view.
+
+7:
+	Action: You are back in the *Start* view
+	Details:
+		 
+	
+		

@@ -1,0 +1,51 @@
+Title: Edit question
+----
+Subtitle: Edit a question your have created before
+----
+Steps:
+
+1:
+	Action: Tap a Session short name
+	Details: &rarr; You are taken to the *Start* view.
+
+2:
+	Action: Tap **Lecture**  or  **Preparation**
+	Details: &rarr; You are taken to the  *Lecture* (*Preparation*)  view.
+3:
+	Action: Tap on the question you want to edit
+	Details: &rarr; You are taken to the *Question* view.	
+4:
+	Action: Tap **Edit**
+	Details:>
+		You can now edit the question itself and its options.
+		
+		
+		**Note**: You can't change the question type.
+5:
+	Action: Scroll down
+	Details: Scroll down to edit the question itself and the answers.
+6:
+	Action: When finished, tap **Save**	
+	Details: &rarr; Your changes are saved.	
+7: 
+	Action: Tap **Questions**
+	Details:>
+		&rarr; You are taken to the *Lecture* (or *Preparation*) view.
+		
+		
+		
+8:
+	Action: You are in the *Lecture* (or *Preparation*) view.
+	Details:>
+			
+			To activate Presentation Mode, tap **Presentation Mode**.
+		
+		
+			To create another question, tap **New lecture question** or **New preparation question**.
+		
+		
+			To edit a question, tap on the question.
+			
+			To delete all questions, tap **Delete questions**.
+			
+			To lock all questions, tap **Lock questions**.

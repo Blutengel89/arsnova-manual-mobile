@@ -1,0 +1,27 @@
+Title: Manage Session
+----
+Subtitle: Edit, release, lock, delete
+----
+Steps:
+
+
+1:
+	Action: Tap on a Session short name
+	Details: &rarr; You are taken to the *Start* view.
+
+		
+2:
+	Action: Select an option
+	Details: >
+			- **Lock session**: Locks the session for users who are not logged in, e.g. during preparation or to prevent multiple responses. Logged on users are notified but can continue using all functions.
+			
+			- **Delete session**: deletes the session permanently. This step can't be undone.
+			
+			- <a class="open" href="#7">**Live Feedback**: View feedback of current session.</a>
+			
+			- <a class="open" href="#8">**Student's questions**: View student's questions.</a>
+			
+			- <a class="open" href="#4">**Lecture**: Takes you to *Lecture* view: Create and edit questions, access presentation mode.</a>
+			
+			- <a class="open" href="#5">**Preparation**: Takes you to *Preparation* view: create and edit questions, access presentation mode. </a>
+		

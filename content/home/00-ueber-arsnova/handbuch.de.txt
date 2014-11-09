@@ -1,0 +1,22 @@
+Title: Über ARSnova
+----
+Subtitle: Was ist ARSnova?
+----
+Text:
+ARSnova ist ein innovatives Audience Response System, das hilft, die Lehre zu verbessern und Vorlesungen mit hohen Zuhörer/innen-Zahlen interaktiver zu gestalten. Die ARSnova Webapp ist unter Open Source Lizenz verfügbbar und ist online kostenlos für jeden frei zugänglich. Universitäten und andere interessierte Institutionen können die App  aber auch auf eigenen Servern installieren.
+
+ARSnova zeichnet sich durch eine rollenbasierte Architektur aus, die es Nutzer/innen ermöglicht sowohl in der Rolle Zuhörer/in als auch in der Rolle Dozent/in zu agieren.
+
+In der Zuhörer/innen-Rolle können Nutzer in Präsenzveranstaltungen durch Live-Feedback direkte Rückmeldung geben, anonym Fragen stellen und Hörsaal- oder Vorbereitungsfragen von  Dozent/innnen beantworten.
+
+In der Rolle Dozent/in können Nutzer/innen Fragen in einer Vielzahl von Frageformaten vorbereiten, mit denen sie überprüfen können, ob ihre Ausführungen verstanden werden oder schon im Vorfeld Informationen über ihre Zuhörer/innen in Erfahrung bringen, um die Inhalte ihrer  Veranstaltungen noch besser an das Zielpublikum anpassen zu können.
+
+Das Live-Feedback gibt jederzeit Rückmeldung, ob die Zuhörer/innen der Veranstaltung noch folgen können. 
+
+ARSnova eignet sich auch hervorragend als Peer-to-Peer-Instruktionsmedium oder als Platform für das Selbststudium.
+
+Mehr Informationen:
+
+- [ARSnova Blog](http://arsnova.eu/blog)
+- [ARSnova Helpdesk](http://arsnova.eu/blog/faq-2/)
+

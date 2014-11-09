@@ -1,0 +1,31 @@
+Title: Anmelden
+----
+Subtitle: Als Dozent/in anmelden
+----
+Steps:
+
+1:
+	Action: Rolle **Dozent/in** auswählen
+	Details: &rarr; Sie gelangen zur Ansicht *Login*.
+2:
+	Action: Anmeldeart auswählen
+	Details:>
+		&rarr; Sie gelangen zur Ansicht *Sessions*.
+		
+		
+			- **Gast**: ohne Anmeldedaten. **Achtung**: **Nicht empfohlen!** Ihre Session wird nur auf dem genutzten Gerät gespeichert. Sie wird gelöscht, sobald Sie Ihren Browser-Cache löschen.
+			
+			- **Uni**: mit Daten der Hochschule anmelden
+			
+			- **Google**: mit Google-Konto anmelden
+			
+			- **Facebook**: mit Facebook-Konto anmelden
+
+3:
+	Action: Sie befinden sich in der Ansicht Sessions.
+	Details:>
+		 Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst eine neue <a class="open" href="#3">Session anlegen</a>. Dies gilt auch, wenn Sie zuvor als Gast eine Session auf einem anderen Gerät erstellt haben.
+		 
+		 
+		 Wenn Sie bereits ein oder mehrere Sessions angelegt haben, wird eine Liste vorhandener Sessions ("Meine Sessions") angezeigt, die sie auswählen können.	
+		

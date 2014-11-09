@@ -1,0 +1,44 @@
+Title: Overview
+----
+Subtitle: How can I use ARSnova?
+----
+URL-Key: overview
+----
+Steps:
+
+1:
+	Action: Navigate
+	Details: >
+		- **1** **Navigation bar**: Shortcuts to all functions
+	       
+		- **2** **Back Buttons**: navigate to the last view (the label indicates the name of the destination view)
+		
+		- **3** **Scrolling with a mouse**: To scroll with a mouse in a desktop browser, click into the view and drag up or down while keeping the mouse button pushed down.
+
+		
+		**Note**: Log in to be able to see this view. The *Student View* is used here as an example. Navigating in the *Teacher's View* is the same, only the functionality is different.  
+
+2:
+	Action: Start icon
+	Details: Takes you to the *Start* view of a session.
+3:
+	Action: Feedback icon
+	Details: Show feedback statistics on the current session.
+4:
+	Action: Question icon
+	Details:>
+				- Student: Answer questions/Question statistics
+				
+				- Teacher: View students' questions
+5:
+	Action: Diagnosis icon
+	Details:>
+			- **Statistics**: shows statistical data for ARSnova  (e.g. no. of users online, no. of open and closed sessions etc.)
+			
+			- **Show browser information**: shows information about your browser
+			
+			- **Reload ARSnova**: re-download ARSnova
+		
+6:
+	Action: Info icon
+	Details: Go to the ARSnova manual

@@ -1,0 +1,34 @@
+Title: Session anlegen
+----
+Subtitle: Neue Session anlegen
+----
+Steps:
+
+1:
+	Action: Auf **Neue Session anlegen** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Session erstellen*.
+2:
+	Action: Name und Kürzel für die **Session** eingeben
+	Details: 
+		
+		
+3:
+	Action: Auf **Session anlegen** tippen.
+	Details: &rarr; Sie gelangen zur *Start*-Ansicht Ihrer Session.		
+
+4:
+	Action: Sie befinden sich in der Ansicht *Start*.
+	Details:>		 
+		Von hier aus können Sie
+			
+			
+				- Ihre Session verwalten
+				
+				- Zwischenfragen ansehen
+				
+				- Hörsaalfragen erstellen
+				
+				- Vorbereitungsfragen erstellen oder
+
+				- Live-Feedback ansehen
+	

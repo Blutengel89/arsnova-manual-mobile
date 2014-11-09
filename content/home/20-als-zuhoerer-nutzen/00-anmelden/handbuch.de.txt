@@ -1,0 +1,41 @@
+Title: Anmelden
+----
+Subtitle: An einer Session anmelden
+----
+Steps:
+
+1:
+	Action: Rolle **Zuhörer/in** auswählen
+	Details: &rarr; Sie gelangen zur Ansicht *Login*
+2:
+	Action: Anmeldeart auswählen
+	Details:>
+		&rarr; Sie gelangen zur Ansicht *Session*.
+		
+		
+			- **Gast**: ohne Anmeldedaten
+			
+			- **Uni**: mit Daten der Hochschule
+			
+			- **Google**: mit Google-Konto
+			
+			- **Facebook**: mit Facebook-Konto
+
+3:
+	Action: Zugangsschlüssel eingeben
+	Details: Der Zugangsschlüssel besteht aus einer 8-stelligen Zahl.
+4:
+	Action: Auf **Session betreten** tippen
+	Details:>
+		&rarr; Sie gelangen zur Ansicht *Start*.
+		
+		
+		**Hinweis&#58;** Wenn Sie eine falsche Session-ID eingeben, erscheint eine Fehlermeldung.
+5:
+	Action: Eine Aktion wählen
+	Details: >
+		Sie können nun Feedback geben, Fragen beantworten oder Zwischenfragen stellen.
+		
+	
+	
+		**Hinweis**&#58; Falls neue Fragen vorhanden sind, erscheint ein Dialogfenster. Wenn Sie die Fragen sofort beantworten möchten, tippen Sie auf "Ja". Um das Dialogfenster zu schließen, tippen Sie auf "Nein".

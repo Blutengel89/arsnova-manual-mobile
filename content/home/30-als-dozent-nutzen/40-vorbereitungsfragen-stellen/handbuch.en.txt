@@ -1,0 +1,89 @@
+Title: Ask Preparation Questions
+----
+Subtitle: Create Session Preparation Questions
+----
+Steps:
+
+1:
+	Action: Tap a session short name.
+	Details: &rarr; You are taken to the *Start* view.
+
+		
+2:
+	Action: Tap **Preparation**
+	Details: >
+	
+		The number within a gray badge shows the number of preparation questions created before.
+		
+		&rarr; You are taken to the *Preparation* view.
+3:
+	Action: Tap **New preparation question**
+	Details: >
+		&rarr; You are taken to the  *Edit question* view.		
+4:
+	Action: Select question type.
+	Details: >
+		In this example, pls. select the question type "Grade". The following question types are available&#58;
+		
+		
+				- **MC**: Multiple Choice
+				
+				- **SC**: Single Choice
+				
+				- **J/N**: Yes/No question
+				
+				- **Txt**: Text question
+				
+				- **Likert**: Likert scale				
+				
+				- **Grade**: Grade system
+				
+				- **FC**: Flashcard (for self-learning)
+		
+		
+		
+		**Note**: The answer options available for a question may differ depending on the question type selected.
+
+5:
+	Action: Enter subject and question
+	Details:>
+
+6:
+	Action: Optionally edit answers
+	Details: You may delete the preset answers and enter your own set of grades.
+7:
+	Action: Tap "**Save**
+	Details:	&rarr; Your are taken to the *Question* view.
+8:
+	Action: Set options for your question
+	Details:>
+				- **Statistics**: View question statistics
+				
+				- **Release statistics**: Allow students to view question statistics
+				
+				- **Mark correct answer**: Show correct answers after question was answered
+				
+				- **Lock question**: Lock question, question will not be presented to students
+				
+				- **Delete answers**: Delete all previously stored answers to the question
+				
+				- **Delete answer**: Permanently delete question
+				
+				- **Release for**: Check **All** to release the question for everyone, check **Uni only** to release the question for University students only.
+9:
+	Action: Tap **Questions**
+	Details: 	&rarr; You are taken to the *Preparation* view.
+10:
+	Action: You are in the *Preparation* view.
+	Details:>
+			- To activate Presentation Mode, tap **Presentation Mode**.
+		
+		
+			- To create another question, tap **New preparation question**.
+		
+		
+			- To edit a question, tap on the question.
+		
+			- To lock all questions, tap **Lock questions**.
+		
+			- To permanently delete all questions, tap **Delete questions**.
