@@ -1,9 +1,0 @@
-Title: iversity Kurs - Web Engineering
-----
-Text:
-
-These instructions help you with installing the tools needed for the THM MOOC Web Engineering II - Developing Mobile HTML5 Apps.
-
-Just follow the 4 chapters in the given order.
-
-You can enroll for Web Engineering II [here](https://iversity.org/courses/web-engineering-ii-developing-mobile-html5-apps)
