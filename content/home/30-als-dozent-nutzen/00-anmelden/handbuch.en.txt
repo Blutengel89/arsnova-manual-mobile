@@ -1,0 +1,32 @@
+Title: Login
+----
+Subtitle: Login as teacher
+----
+Steps:
+
+1:
+	Action: Choose role **Teacher**
+	Details: &rarr; Your are taken to the *Login* view.
+2:
+	Action: Choose login type
+	Details:>
+		&rarr; You are taken to the *Sessions* view.
+		
+		
+			- **Guest**: log in without credentials. **Important**: **Not recommended!** Your session is saved on your current device only. It will be deleted as soon as you clear your browser cache.
+			
+			- **Uni**: log in with university credentials
+			
+			- **Google**: log in with Google account
+			
+			- **Facebook**: log in with Facebook account
+
+3:
+	Action: You are in the *Sessions* view.
+	Details:>
+		 If you log in for the first time, you need to <a class="open" href="#3">create a session</a> before you can continue with any other action. The same is true if you have created a session on another device while logged in as guest.
+		 
+		 
+		 If you have already created a session before, a list of available session is listed (under "My Sessions"). 
+
+	

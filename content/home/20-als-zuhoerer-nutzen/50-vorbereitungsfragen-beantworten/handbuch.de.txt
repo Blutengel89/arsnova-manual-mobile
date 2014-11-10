@@ -1,0 +1,47 @@
+Title: Vorbereitungsfragen beantworten
+----
+Subtitle: Vor der Vorlesung zu beantworten!
+----
+Steps:
+
+1:
+	Action: Auf **Vorbereitung** tippen.
+	Details:> 
+		
+		
+		&rarr; Sie gelangen zur Ansicht der ersten Frage.
+		
+2:
+	Action: Antwort eingeben
+	Details: >
+		Die Eingabemöglichkeiten sind abhängig vom Fragetyp, der in der oberen Leiste angezeigt wird.
+		
+			- **Mehrfachauswahl**: Alle zutreffenden Antworten auswählen
+			
+			- **Einfachauswahl**: Auf eine Antwort tippen
+
+			- **Ja/Nein**: Auf "Ja" oder "Nein" tippen
+			
+			- **Freitext**: Thema und Antwort eingeben, auf "Speichern" tippen
+		
+			- **Likert**:  Auf eine Einschätzung tippen
+			
+			- **Note**: Auf eine Schulnote tippen			
+			
+			- **Lernkarte**: Antwort ansehen, keine Antwortmöglichkeit
+		
+		
+		**Hinweis**: Mit der Wischgeste können Sie zwischen den Fragen navigieren.
+		
+		**Bei Mausbedienung**: Um zwischen den Fragen zu navigieren, klicken Sie in die Ansicht und ziehen Sie mit gedrückter Maustaste nach links oder rechts. Alternativ klicken Sie rechts oder links der Positionspunkte oberhalb der Navigationsleiste.
+3:
+	Action: "Antwort abschicken?" &rarr; Ja
+	Details:>
+		Um die Antwort abzuschicken, tippen Sie im Dialogfenster auf "Ja". 
+	
+		
+		&rarr; Falls vorhanden, gelangen Sie zur nächsten Frage. Nachdem Sie die letzte Frage beantwortet haben, gelangen Sie zur Ansicht *Start*.
+	
+4:
+	Action: Sie sind wieder auf der Ansicht *Start*.
+	Details:	

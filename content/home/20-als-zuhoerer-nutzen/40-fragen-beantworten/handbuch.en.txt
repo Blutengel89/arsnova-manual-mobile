@@ -1,0 +1,53 @@
+Title: Answer Lecture Questions
+----
+Subtitle: Answer teachers' questions
+----
+
+Steps:
+
+1:
+	Action: Tap **Lecture**.
+	Details:> 
+		
+		
+		&rarr; You are taken to the first question.
+		
+2:
+	Action: Enter your answer
+	Details: >
+		The possible answers depend on the question type that is displayed in the top bar.
+		
+				
+			- **MC** (Multiple Choice): Tap all applicable answers
+			
+			- **ABCD** (Single Choice): Tap one anwser
+
+			- **Yes | No**: Tap "Yes" or "No"
+			
+			- **Text**: Enter the subject and your answer
+		
+			- **Rating**:  Tap the rating you want to give
+			
+			- **Grade**: Tap the grade	 you want to give		
+			
+			- **Flashcard**: View answer; no answer possible
+		
+		
+		
+		
+		
+		**Note**: Use the swipe gesture to navigate between questions.
+		
+		**When using a mouse**: To navigate between questions, click into the view and drag to the left or right while keeping the mouse button down. You may also click to the left or right of the navigation dots above the navigation bar.
+
+3:
+	Action: "Submit answer?" &rarr; Yes
+	Details:>
+		To send the answer, tap "Yes".	
+		
+		
+		&rarr; If there are further questions, you are taken to the next question. After you have answered the last questions, you are taken to the *Start* view.
+	
+4:
+	Action: You are back in the *Start* view.
+	Details:	

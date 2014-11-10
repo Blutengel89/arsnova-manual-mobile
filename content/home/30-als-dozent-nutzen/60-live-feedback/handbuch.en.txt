@@ -1,0 +1,48 @@
+Title: View Live Feedback
+----
+Subtitle: How does your audience rate your lecture?
+----
+Steps:
+
+
+1:
+	Action: Tap on a Session short name.
+	Details: &rarr; You are taken to the *Start* view.
+
+2:
+	Action: Tap **Live feedback**
+	Details:>
+		&rarr; You are taken to the *Live-Feedback* view of the selected session.
+		
+					
+3:
+	Action: To get back to the *Start* view, tap **Session**
+	Details:>
+			
+			Here's the meaning of the smileys:
+		
+			
+			![Smiley: I can follow you](http://arsnova.eu/manual/content/home/30-als-dozent-nutzen/60-live-feedback/happy.png): I can follow you.
+			
+			![Smiley: Faster, please!](http://arsnova.eu/manual/content/home/30-als-dozent-nutzen/60-live-feedback/wink.png): Faster, please!
+			
+			![Smiley: Slower, please!](http://arsnova.eu/manual/content/home/30-als-dozent-nutzen/60-live-feedback/frown.png): Slower, please!
+			
+			![Smiley: You've lost me.](http://arsnova.eu/manual/content/home/30-als-dozent-nutzen/60-live-feedback/angry.png): You've lost me.									
+
+			
+			&rarr; You are taken to the *Start* view.
+
+4:
+	Action: You are back in the *Start* view
+	Details:>		 
+		From here you can
+			
+			
+				- manage your session
+				
+				- view students' questions
+				
+				- create lecture questions
+				
+				- create preparation questions

@@ -1,0 +1,42 @@
+Title: Login
+----
+Subtitle: Log in to a session
+----
+Steps:
+
+1:
+	Action: Choose role **Student**
+	Details: &rarr; You are taken to the *Login*  view.
+2:
+	Action: Choose login type
+	Details:>
+		&rarr; You are taken to the *Session* view.
+		
+		
+		- **Guest**: log in without credentials
+			
+			- **Uni**: log in with university credentials
+			
+			- **Google**: log in with Google account
+			
+			- **Facebook**: log in with Facebook account
+
+
+3:
+	Action: Enter Session-ID
+	Details: The Session-ID is always an eight digit number.
+4:
+	Action: Tap **Enter Session**
+	Details:>
+		&rarr; You are taken to the *Start*  view.
+		
+		
+		**Note&#58;** If you enter a wrong Session-ID a dialog box with an error message will appear.
+5:
+	Action: Choose an action
+	Details: >
+		You may now give feedback, answer lecture questions, or ask questions.
+		
+	
+	
+		**Note**&#58; Whenever you log in to a session and new questions are available, a dialog box will appear. To answer the questions right away, tap "Yes", to dismiss the dialog box tap "No". 

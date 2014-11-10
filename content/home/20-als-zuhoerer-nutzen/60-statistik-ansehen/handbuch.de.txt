@@ -1,0 +1,36 @@
+Title: Statistik ansehen
+----
+Subtitle: Statistik zu beantworteten Fragen ansehen
+----
+Steps:
+
+1:
+	Action: Auf **Hörsaal** tippen
+	Details: >
+		&rarr; Sie gelangen zur ersten Frage.
+		
+2:
+	Action: Auf **Statistik** Button tippen
+	Details: >
+		Der **Statistik**-Button befindet sich rechts oben.
+		
+		**Hinweis**: Die Fragenstatistik ist nur verfügbar, wenn Sie eine Frage bereits beantwortet haben und wenn die Statistik für eine Frage freigeschaltet wurde.
+		
+			
+		&rarr; Sie gelangen zur Ansicht *Frage* mit der Statistik zur aktuell ausgewählten Frage.
+3:
+	Action: Auf **Zurück** tippen
+	Details:> 	
+		&rarr; Sie gelangen zurück zur Frage.
+	
+		**Hinweis**: Mit der Wischgeste navigieren Sie zwischen den Fragen und können sich - sofern verfügbar - die Statistik zu jeder Frage ansehen.
+					
+		**Bei Mausbedienung**: Um zwischen den Fragen zu navigieren, klicken Sie in die Ansicht und ziehen Sie mit gedrückter Maustaste nach links oder rechts. Alternativ klicken Sie rechts oder links der Positionspunkte oberhalb der Navigationsleiste.		
+		
+		
+4:
+	Action: Zum Beenden auf **Start** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Start*
+5:
+	Action: Sie sind wieder in der Ansicht *Start*
+	Details:	

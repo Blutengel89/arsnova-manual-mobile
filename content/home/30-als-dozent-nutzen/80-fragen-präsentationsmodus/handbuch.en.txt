@@ -1,0 +1,43 @@
+Title: Presentation Mode
+----
+Subtitle: Present questions and answers to auditorium
+----
+Steps:
+
+		
+1:
+	Action: Tap **Lecture** (**Preparation**)
+	Details: >
+		&rarr; You are taken to the *Lecture* (*Preparation*)view.
+		
+		
+		**Note**: The number in the gray square badge shows the number of questions, the number in the red square badge the number of all cumulated answers.
+2:
+	Action: Tap **Presentation Mode**
+	Details: >
+		&rarr; You are taken to the first question.
+		
+			
+			**Note**: Use the swipe gesture to navigate between all questions and view statistics for each question (if available).
+					
+					
+					**When using the mouse**: To navigate between questions when using a mouse, click into the view and - keeping the mouse button down - drag to the left or right. You may also click to the left or right of the position dots right above the navigation bar. 	
+		
+3:
+	Action: Tap on the **Statistics** icon
+	Details:  &rarr; You are taken to the *Statistics* of the current question.
+		
+4:
+	Action: When finished, tap **Back**
+	Details: &rarr; You are taken back to the *Question* view.
+		
+5:
+	Action: To present other questions, swipe. When finished, tap back.
+	Details: &rarr; You are taken to the *Lecture* (*Preparation*) view.
+6:
+	Action: Tap **Back**.
+	Details: &rarr; You are taken to the *Start* view.
+
+7:
+	Action: You are back in the *Start* view
+	Details:

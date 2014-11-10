@@ -1,0 +1,27 @@
+Title: Feedback geben
+----
+Subtitle: Veranstaltung live bewerten
+----
+Steps:
+
+
+1:
+	Action: Auf **Feedback geben** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Feedback*.
+2:
+	Action: Auf einen Feedback-Button tippen
+	Details:>
+		Um die Veranstaltung zu bewerten, tippen Sie auf den passenden Smiley.
+	
+		&rarr; Sie gelangen zur Ansicht *Feedback-Statistik*.
+3:
+	Action: Auf **Start** tippen
+	Details:>
+			&rarr; Sie gelangen zur Ansicht *Start*
+			
+			**Hinweis**: Sie können auch in dieser Ansicht auf einen Feedback-Smiley tippen, während Sie sich das Feedback der anderen Zuhörer/innen ansehen. Sie können also direkt interagieren. 
+	
+			
+4:
+	Action: Sie sind wieder in der Ansicht *Start*.
+	Details: 

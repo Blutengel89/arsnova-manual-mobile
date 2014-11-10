@@ -1,0 +1,54 @@
+Title: Frage bearbeiten
+----
+Subtitle: Bereits erstelle Fragen bearbeiten
+----
+Steps:
+
+1:
+	Action: Auf ein Sessionkürzel tippen
+	Details: &rarr; Sie gelangen zur Ansicht der ausgewählten Session.
+
+2:
+	Action: Auf **Hörsaal** oder **Vorbereitung** tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Hörsaal* (*Vorbereitung*).
+3:
+	Action: Auf zu bearbeitende Frage tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Frage*.	
+4:
+	Action: Auf **Bearbeiten** tippen
+	Details:>
+		Sie können die Frage nun editieren und die Frageoptionen ändern.
+		
+		
+		**Hinweis**: Der Fragetyp kann nicht geändert werden!
+5:
+	Action: Nach unten scrollen
+	Details: Scrollen Sie nach unten, um Frage und Antworten zu editieren.		
+
+6:
+	Action: Auf **Speichern** tippen.	
+	Details: &rarr; Die Frage wird gespeichert.	
+7: 
+	Action:Auf **Fragen** tippen
+	Details:>
+		&rarr; Sie gelangen zur Ansicht *Hörsaal*(oder *Vorbereitung*).
+		
+		
+		
+8:
+	Action: Sie sind in der Ansicht *Hörsaal* (oder *Vorbereitung*).
+	Details:>
+			
+			Um den Präsentationsmodus zu aktivieren, tippen Sie auf **Präsentationsmodus**.
+
+			
+			Um weitere Fragen zu erstellen, tippen Sie auf **Neue Frage stellen**.
+
+			
+			Um eine Frage zu editieren, tippen Sie auf die Frage.
+			
+			Um alle Fragen zu sperren, tippen Sie auf **Fragen sperren**.
+			
+			Um alle Fragen zu löschen, tippen Sie auf **Fragen löschen**.
+			
+			

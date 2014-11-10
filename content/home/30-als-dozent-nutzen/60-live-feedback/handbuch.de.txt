@@ -1,0 +1,49 @@
+Title: Live-Feedback ansehen
+----
+Subtitle: Wie kommt Ihre Vorlesung an?
+----
+Steps:
+
+
+1:
+	Action: Auf ein Sessionkürzel tippen
+	Details: &rarr; Sie gelangen zur Ansicht *Start*.
+
+2:
+	Action: Auf **Live-Feedback** tippen
+	Details: >
+		&rarr; Sie gelangen zur Ansicht *Live-Feedback* der aktuellen Session.
+	
+		
+						
+3:
+	Action: Um zurück zur Sessionübersicht zu gelangen, auf **Session** tippen
+	Details: >
+		Das bedeuten die Smileys:
+		
+			
+		![Smiley: Kann folgen](http://arsnova.eu/manual/content/home/30-als-dozent-nutzen/60-live-feedback/happy.png): Kann folgen
+			
+		![Smiley: Bitte schneller](http://arsnova.eu/manual/content/home/30-als-dozent-nutzen/60-live-feedback/wink.png): Bitte schneller
+			
+		![Smiley: Zu schnell](http:/arsnova.eu/manual/content/home/30-als-dozent-nutzen/60-live-feedback/frown.png): Zu schnell
+			
+		![Smiley: Abgehängt](http://arsnova.eu/manual/content/home/30-als-dozent-nutzen/60-live-feedback/angry.png): Abgehängt
+	
+
+			
+		&rarr; Sie gelangen zur Ansicht *Start*.
+
+4:
+	Action: Sie befinden sich in der Ansicht *Start*.
+	Details:>		 
+		Hier können Sie
+			
+			
+				- Ihre Session verwalten
+				
+				- Zwischenfragen ansehen
+				
+				- Hörsaalfragen erstellen
+				
+				- Vorbereitungsfragen erstellen

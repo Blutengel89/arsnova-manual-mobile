@@ -1,0 +1,33 @@
+Title: Ask a Question
+----
+Subtitle: Ask a question during lectures
+----
+Steps:
+
+1:
+	Action: Tap **Give Feedback**
+	Details: &rarr; You are taken to the *Feedback* view.
+2:
+	Action: Tap **I've got a question ...** 
+	Details: &rarr; You are taken to the view *Edit question*.
+	
+3:
+	Action: Enter a subject and your question
+	Details:>
+		Enter a subject (max. 140 characters) and your question text (max. 2500 characters) in the corresponding fields.
+4:
+	Action: Tap **Send**
+	Details:	
+5:
+	Action: Question successfully sent.
+	Details:>
+		 When your question was successfully sent, a confirmation dialog informs you that "Your question has been saved".  
+		 
+		 
+		 &rarr; You are taken to the *Feedback* view.
+6:
+	Action: Tap **Start**
+	Details: &rarr; You are taken to the *Start* view.
+7:
+	Action: You are back in the *Start* view.
+	Details:
