@@ -10,9 +10,6 @@ $links = $page->children()->invisible();
 <section class="container">
 	<h1><?php echo html($page->title()) ?></h1>
 	<?php echo kirbytext($page->text()) ?>
-	<div class="ars_link">
-  <span><a class="noajax" href="<?php echo "https://arsnova.eu/mobile/#" . $langCurrent; ?>">App<span></span></a></span>
-  </div> 
 </section>
 <section class="container">
 	<div class="panel-group" id="accordion">
