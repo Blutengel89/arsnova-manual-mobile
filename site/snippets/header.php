@@ -15,18 +15,7 @@
 </head>
 
 <body>
-  <!--div class="lang_switch">
-    <?php $langs=c::get('lang.available');
-    $current=c::get('lang.current');?> 
-    <?php foreach($langs as $lang):?> 
-      <?php //if($page->content($lang)!=false):?> 
-        <?php if($lang != $current):?> 
-          <span> <a class="noajax" href="<?php echo $page->url($lang)?>">
-            <?php echo $lang?></a> </span> 
-          <?php endif?> 
-        <?php //endif?> <?php endforeach?>
-      </div-->
-      <div id="wrap">
-        <header class="container">
-          <a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/arsnova.jpg') ?>" alt="<?php echo html($site->title()) ?>" /></a>
-        </header>
+    <div id="wrap">
+      <header class="container">
+        <a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/arsnova.jpg') ?>" alt="<?php echo html($site->title()) ?>" /></a>
+      </header>
