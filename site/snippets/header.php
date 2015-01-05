@@ -12,10 +12,11 @@
   <meta name="robots" content="index, follow" />
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
   <?php echo css('assets/css/custom.css') ?>
+  <?php echo css('assets/arsnova/style.css') ?>
 </head>
 
 <body>
     <div id="wrap">
-      <header class="container">
-        <a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/arsnova.jpg') ?>" alt="<?php echo html($site->title()) ?>" /></a>
+      <header class="container clearfix">
+      <span class="icon-radar" aria-hidden="true"></span><span class="icon-ars"></span><span class="icon-nova"></span>
       </header>

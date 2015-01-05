@@ -8,7 +8,7 @@ $links = $page->children()->invisible();
 
 <div class="shell">
 <section class="container">
-	<h1><?php echo html($page->title()) ?></h1>
+	<h1><?php if(!$page->isHomePage()) {echo html($page->title());} ?></h1>
 	<?php echo kirbytext($page->text()) ?>
 </section>
 <section class="container">
