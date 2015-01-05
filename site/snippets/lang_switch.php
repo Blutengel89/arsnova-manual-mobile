@@ -1,1 +1,0 @@
-<div class="lang_switch"> <?php $langs=c::get('lang.available');$current=c::get('lang.current');?> <?php foreach($langs as $lang):?> <?php if($page->content($lang)!=false):?> <?php if($lang!==$current):?> <span> <a href="<?php echo $page->url($lang)?>"><?php echo $lang?></a> </span> <?php endif?> <?php endif?> <?php endforeach?></div>
