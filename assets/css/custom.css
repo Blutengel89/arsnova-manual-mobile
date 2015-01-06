@@ -241,5 +241,24 @@ span.panel-icon {
     margin-left:20px;
   }
 }
+header.container {
+  margin: 25px auto 20px auto;
+  text-align:center;
+}
+header span[class^="icon"],
+header span[class*=" icon-"] {
+  font-size: 55px;
+}
 
+
+.icon-radar, .icon-nova {
+  color: #80ba24;
+}
+.icon-radar {
+  margin-right: -10.944000244140625px;
+}
+.icon-ars{
+  color: #4a5c66;
+
+}
 
