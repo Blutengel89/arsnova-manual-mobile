@@ -10,13 +10,21 @@
   <meta name="description" content="<?php echo html($site->description()) ?>" />
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-  <?php echo css('assets/css/custom.css') ?>
-  <?php echo css('assets/arsnova/style.css') ?>
+  <?php 
+    echo css('//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css');
+    echo css('assets/css/custom.css');
+    echo css('assets/arsnova/style.css');
+  ?>
 </head>
 
 <body>
     <div id="wrap">
       <header class="container clearfix">
-      <span class="icon-radar" aria-hidden="true"></span><span class="icon-ars"></span><span class="icon-nova"></span>
+      <?php if($page->isHomePage()):?>
+         <a href="<?php echo url() ?>" target="_self"><span class="icon-radar" aria-hidden="true"></span><span class="icon-ars"></span><span class="icon-nova"></span></a>
+     
+      <?php else : ?>
+         <a class="btn btn-default pull-left start" href="<?php echo url() ?>" target="_self"><span class="icon-book"></span><span><?php echo l::get('start') ?></span></a>
+     
+      <?php endif ?>
       </header>
