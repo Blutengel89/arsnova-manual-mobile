@@ -5,7 +5,6 @@ $links = $page->children()->invisible();
 ?>
 <?php snippet('header');?>
 
-
 <div class="shell">
 <section class="container">
 	<h1><?php if(!$page->isHomePage()) {echo html($page->title());} ?></h1>
@@ -18,7 +17,7 @@ $links = $page->children()->invisible();
 			<?php if(!$chapter->hasChildren()) :?>
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<a class="noajax" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $i; ?>">
+						<a class="noajax" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $i; ?>"  target="_self">
 							<h2 class="panel-title" id="<?php echo $chapter->uid() ?>">
 								<?php echo ($chapter->title()) ?>
 							</h2>
@@ -80,10 +79,7 @@ $links = $page->children()->invisible();
 						<div class="panel-heading">
 							<a href="<?php echo $chapter->url() ?>">
 								<h2 class="panel-title" id="<?php echo $chapter->uid() ?>">
-
-
 									<?php echo html($chapter->title()) ?>
-
 								</h2>
 								<h3 class="panel-subtitle"><?php echo html($chapter->subtitle()) ?></h3>
 							</a>
@@ -92,19 +88,6 @@ $links = $page->children()->invisible();
 					</div>
 				<?php endif; ?>
 		<?php $i++; endforeach; ?>
-		<?php foreach($links as $link) : ?>
-			<div class="panel panel-default ext-links">
-				<div class="panel-heading">
-					<a class="noajax" href="<?php echo $link->link() ?>">
-						<h2 class="panel-title" id="<?php echo $link->uid() ?>">
-							<?php echo html($link->title()) ?>
-						</h2>
-					</a>
-					
-				</div>
-				<span class="glyphicon glyphicon-chevron-right panel-icon"></span>
-			</div>
-		<?php endforeach; ?>	
 	</div>
 </section>
 </div>
